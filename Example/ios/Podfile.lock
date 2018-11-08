@@ -1,0 +1,186 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.5)
+  - Folly (2016.09.26.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.4)
+  - KSCrash/Core (1.15.18):
+    - KSCrash/Reporting/Filters/Basic
+  - KSCrash/Recording (1.15.18):
+    - KSCrash/Recording/Tools (= 1.15.18)
+  - KSCrash/Recording/Tools (1.15.18)
+  - KSCrash/Reporting/Filters/Base (1.15.18):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Filters/Basic (1.15.18):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - Picker (4.3.7):
+    - Picker/Core (= 4.3.7)
+  - Picker/Core (4.3.7):
+    - React
+  - React (0.55.3):
+    - React/Core (= 0.55.3)
+  - react-native-splash-screen (3.1.1):
+    - React
+  - React/ART (0.55.3):
+    - React/Core
+  - React/Core (0.55.3):
+    - yoga (= 0.55.3.React)
+  - React/CxxBridge (0.55.3):
+    - Folly (= 2016.09.26.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.55.3):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.09.26.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/DevSupport (0.55.3):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.55.3)
+  - React/jschelpers (0.55.3):
+    - Folly (= 2016.09.26.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.55.3)
+  - React/PrivateDatabase (0.55.3)
+  - React/RCTActionSheet (0.55.3):
+    - React/Core
+  - React/RCTAnimation (0.55.3):
+    - React/Core
+  - React/RCTBlob (0.55.3):
+    - React/Core
+  - React/RCTCameraRoll (0.55.3):
+    - React/Core
+    - React/RCTImage
+  - React/RCTGeolocation (0.55.3):
+    - React/Core
+  - React/RCTImage (0.55.3):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.55.3):
+    - React/Core
+  - React/RCTNetwork (0.55.3):
+    - React/Core
+  - React/RCTPushNotification (0.55.3):
+    - React/Core
+  - React/RCTSettings (0.55.3):
+    - React/Core
+  - React/RCTText (0.55.3):
+    - React/Core
+  - React/RCTVibration (0.55.3):
+    - React/Core
+  - React/RCTWebSocket (0.55.3):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - RNDeviceInfo (0.21.5):
+    - React
+  - RNFS (2.12.1):
+    - React
+  - RNZipArchive/Core (1.0.1):
+    - React
+  - RNZipArchive/RNZASSZipArchive (1.0.1):
+    - React
+  - Sentry (3.12.4):
+    - Sentry/Core (= 3.12.4)
+    - Sentry/KSCrash (= 3.12.4)
+  - Sentry/Core (3.12.4)
+  - Sentry/KSCrash (3.12.4):
+    - KSCrash/Core (~> 1.15.12)
+  - SentryReactNative (0.38.3):
+    - React
+    - Sentry (~> 3.12.4)
+    - Sentry/KSCrash (~> 3.12.4)
+  - UMCAnalytics (5.5.1):
+    - UMCCommon
+  - UMCCommon (1.5.2)
+  - yoga (0.55.3.React)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - Picker (from `../node_modules/react-native-picker`)
+  - react-native-splash-screen (from `../node_modules/react-native-mc-splash-screen/react-native-splash-screen.podspec`)
+  - React/ART (from `../node_modules/react-native`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTBlob (from `../node_modules/react-native`)
+  - React/RCTCameraRoll (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTPushNotification (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNDeviceInfo (from `../node_modules/react-native-device-info`)
+  - RNFS (from `../node_modules/react-native-fs`)
+  - RNZipArchive/Core (from `../node_modules/react-native-mc-zip-archive`)
+  - RNZipArchive/RNZASSZipArchive (from `../node_modules/react-native-mc-zip-archive`)
+  - SentryReactNative (from `../node_modules/react-native-sentry`)
+  - UMCAnalytics (~> 5.5.0)
+  - UMCCommon (~> 1.5.2)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+    - KSCrash
+    - Sentry
+    - UMCAnalytics
+    - UMCCommon
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  Picker:
+    :path: "../node_modules/react-native-picker"
+  React:
+    :path: "../node_modules/react-native"
+  react-native-splash-screen:
+    :podspec: "../node_modules/react-native-mc-splash-screen/react-native-splash-screen.podspec"
+  RNDeviceInfo:
+    :path: "../node_modules/react-native-device-info"
+  RNFS:
+    :path: "../node_modules/react-native-fs"
+  RNZipArchive:
+    :path: "../node_modules/react-native-mc-zip-archive"
+  SentryReactNative:
+    :path: "../node_modules/react-native-sentry"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
+  Folly: 211775e49d8da0ca658aebc8eab89d642935755c
+  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  KSCrash: 5394936f41e5c1ef7b79cf79b30d53299b0c160e
+  Picker: 67a2566d9ff6b141d505d88b9177f905aaa5f1a6
+  React: aa2040dbb6f317b95314968021bd2888816e03d5
+  react-native-splash-screen: c6f038aca9675df3cb7eece7fb5156bd6deec3a2
+  RNDeviceInfo: 568c5641057313b4912d08a7742ff0b2f753ed5c
+  RNFS: bbb1a64eb245763daf34aea86f97c97c4e85f74c
+  RNZipArchive: f1777907780b47f997f38f1f93d087a444a5ef8f
+  Sentry: 7d3ea7176e5184e9c35c12a5825905345807e8c1
+  SentryReactNative: 787a08161d641dde91dd36d4c8e76f9b0ba4fc84
+  UMCAnalytics: 0aff87e39008e2a650e5917430db0da2de2f8495
+  UMCCommon: 4392868ac47ff1b101663106bb114ba616fabbad
+  yoga: a23273df0088bf7f2bb7e5d7b00044ea57a2a54a
+
+PODFILE CHECKSUM: cc0d1e55c074458c017bd82d418aff94cbdb09e1
+
+COCOAPODS: 1.5.3

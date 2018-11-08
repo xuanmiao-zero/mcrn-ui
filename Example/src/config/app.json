@@ -1,0 +1,8 @@
+{
+  "name": "mcrnui",
+  "initialRouteName":"ComponentList",
+  "displayName": "mcrnui",
+  "storageExpireTime": 2592000000,
+  "autoCacheModule_prd":["UserAccount"],
+  "js_version": 1
+}

@@ -1,0 +1,39 @@
+{
+  "name": "mcrn-ui",
+  "version": "0.0.2",
+  "description": "A UI Lib for React Native",
+  "keywords": [
+    "mcrn",
+    "ui",
+    "react-native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiongcaichang/mcrn-ui"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "eslint . *.js --cache",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "15.6.0"
+  },
+  "devDependencies": {
+    "babel-preset-react-native": "1.9.1",
+    "eslint-config-mcrn": "*",
+    "react": "16.3.1",
+    "react-native": "0.55.3",
+    "babel-jest": "18.0.0",
+    "jest": "18.1.0",
+    "react-test-renderer": "15.4.2",
+    "pre-commit": "^1.2.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}

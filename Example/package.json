@@ -1,0 +1,25 @@
+{
+  "name": "mcrnui",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "mcrn": "1.5.0",
+    "react-native-calendars": "^1.20.0",
+    "react-native-device-info": "^0.22.4",
+    "react-native-dropdownalert": "^3.5.0",
+    "react-native-fs": "^2.11.15",
+    "react-native-mc-ultimate-listview": "^3.3.0",
+    "react-native-mc-zip-archive": "^1.0.1",
+    "react-native-picker": "^4.3.7",
+    "react-native-scrollable-tab-view": "^0.8.0",
+    "mcrn-ui": "0.0.2",
+    "react-native-sentry": "0.38.3"
+  },
+  "devDependencies": {
+    "eslint-config-mcrn": "0.0.4",
+    "pre-commit": "^1.2.2"
+  }
+}
