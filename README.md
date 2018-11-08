@@ -35,7 +35,7 @@ function Demo(props) {
 ### 1. Install
 
 ```
-npm install
+npm install && cd ios && pod install & cd ..
 ```
 
 ### 2. Run
