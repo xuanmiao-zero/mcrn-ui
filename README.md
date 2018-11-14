@@ -18,6 +18,16 @@ npm install mcrn-ui --save
 ### 2. Use
 
 ```js
+// 
+import { ThemeProvider } from 'mcrn-ui';
+
+<ThemeProvider theme={{ primaryColor: 'rgb(36,199,208)' }}}>
+  <App />
+</ThemeProvider>
+
+```
+
+```js
 import React, {
   Component,
 } from 'react';
