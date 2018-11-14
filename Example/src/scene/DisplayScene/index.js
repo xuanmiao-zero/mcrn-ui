@@ -34,7 +34,7 @@ export default class DisplayScene extends Component {
       <Page style={style.container}>
         <NavBar
           title={(this.state.params && this.state.params.title) || '组件展示'}
-          rightBtn="更换主题"
+          rightBtn="☀️更换主题"
           rightEvent={() => {
             util.changeTheme({
               primaryColor: this.getRandomColor(),

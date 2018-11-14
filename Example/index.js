@@ -1,1 +1,2 @@
-import '@MCRN/init'
+import '@MCRN/init';
+
