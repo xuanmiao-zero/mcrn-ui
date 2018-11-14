@@ -12,6 +12,7 @@ import {
   Icon,
   Article,
 } from 'MCComponent';
+import util from 'mcrn/util';
 
 const styles = StyleSheet.create({
   scrollView: {
@@ -46,12 +47,26 @@ class Page extends Component {
   onPress() {
     // console.log('onPress!');
   }
+  getRandomColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    const rgb = `rgb(${r},${g},${b})`;
+    return rgb;
+  }
+
   render() {
     return (
       <All>
         <ScrollView style={styles.scrollView}>
           <Article title="默认">
-            <Btn />
+            <Btn
+              onPress={() => util.changeTheme({
+                primaryColor: this.getRandomColor(),
+              })}
+            >
+              主题切换
+            </Btn>
           </Article>
           <Article title="自定义">
             <Btn
