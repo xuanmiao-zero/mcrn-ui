@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import All from 'mcrn-ui/All';
 import Alert from 'mcrn-ui/Alert';
-import List from '../List';
+import List from 'MCComponent/List';
 
 const styles = StyleSheet.create({
   alert: {

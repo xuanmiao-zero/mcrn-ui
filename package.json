@@ -1,6 +1,6 @@
 {
   "name": "mcrn-ui",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "A UI Lib for React Native",
   "keywords": [
     "mcrn",
@@ -13,12 +13,12 @@
   },
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "lint": "eslint . *.js --cache",
-    "test": "jest"
+    "lint": "eslint . *.js --cache"
   },
   "license": "MIT",
   "dependencies": {
-    "prop-types": "15.6.0"
+    "prop-types": "15.6.0",
+    "mcui-theme-provider": "^0.0.1"
   },
   "devDependencies": {
     "babel-preset-react-native": "1.9.1",

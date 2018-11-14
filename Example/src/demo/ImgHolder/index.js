@@ -13,8 +13,7 @@ import All from 'mcrn-ui/All';
 import ImgHolder from 'mcrn-ui/ImgHolder';
 import Btn from 'mcrn-ui/Btn';
 
-// const IMG_URI = 'https://raw.githubusercontent.com/dragonwong/excited/master/img/dark_power.jpg?t=';
-const IMG_URI = 'http://img.t.sinajs.cn/t6/style/images/global_nav/WB_logo-x2.png?id=1404211047727&t=';
+const IMG_URI = 'https://avatars1.githubusercontent.com/u/10259498?s=500';
 const styles = StyleSheet.create({
   imgHolder: {
     height: 200,

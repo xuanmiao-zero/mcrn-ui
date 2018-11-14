@@ -4,9 +4,11 @@ import {
   View,
   Text,
   TouchableOpacity,
-  ViewPropTypes
+  ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
+import { COLOR_THEME } from 'mcrn-ui/constant';
+import { withTheme } from 'mcui-theme-provider';
 
 import {
   ACTIVE_OPACITY,
@@ -20,6 +22,7 @@ const HEADER_HEIGHT = isAndroid ? 56 : 44;
 
 const NOOP = () => {};
 
+@withTheme
 class NavBar extends Component {
   makeTitle() {
     let title = this.props.title;
@@ -65,11 +68,13 @@ class NavBar extends Component {
     const title = this.makeTitle();
     const leftBtn = this.makeLeftBtn();
     const rightBtn = this.makeRightBtn();
+    const { theme = {} } = this.props;
 
     return (
       <View
         style={[styles.navBar, {
           paddingTop: this.props.statusBarHeight,
+          backgroundColor: theme.primaryColor || COLOR_THEME,
         }, this.props.style]}
       >
         <View

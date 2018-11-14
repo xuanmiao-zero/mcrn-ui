@@ -4,6 +4,7 @@ import React, {
 import {
   StyleSheet,
   ListView,
+  ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
 
@@ -48,14 +49,14 @@ class List extends Component {
 
 List.propTypes = {
   // 自定义样式
-  style: PropTypes.style,
+  style: ViewPropTypes.style,
   // 列表项
   items: PropTypes.arrayOf(PropTypes.object),
   // onPress 回调上下文
   pressContext: PropTypes.instanceOf(Component),
 };
 List.defaultProps = {
-  style: null,
+  style: {},
   items: [],
   pressContext: null,
 };

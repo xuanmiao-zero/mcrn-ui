@@ -13,7 +13,6 @@ import navigation from '@MCRN/navigation';
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#2F3549',
     borderBottomColor: '#EFEFEF',
     // borderBottomWidth: 1,
   },

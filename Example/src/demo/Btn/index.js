@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
   btnDisabled: {
-    backgroundColor: '#f7af9b',
+    opacity: 0.7,
   },
 });
 

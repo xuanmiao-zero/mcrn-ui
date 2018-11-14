@@ -400,7 +400,7 @@ const getStyles = (inputHeight, isRtl) => {
 
   return {
     container: {
-      backgroundColor: '#989898',
+      backgroundColor: '#F5F5F5',
       // height: containerHeight + topHeight,
       flexDirection: isRtl ? 'row-reverse' : 'row',
       justifyContent: 'flex-start',
@@ -449,7 +449,7 @@ const getStyles = (inputHeight, isRtl) => {
     },
     cancelButtonText: {
       fontSize: 14,
-      color: '#fff',
+      color: '#999',
     },
   };
 };

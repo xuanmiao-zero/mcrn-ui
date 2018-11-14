@@ -9,9 +9,10 @@ import {
   Text,
   TouchableOpacity,
   View,
-  ViewPropTypes
+  ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
+import { withTheme } from 'mcui-theme-provider';
 
 import {
   COLOR_THEME,
@@ -34,6 +35,7 @@ const styles = StyleSheet.create({
   },
 });
 
+@withTheme
 class Btn extends Component {
   render() {
     let content = this.props.children;
@@ -52,9 +54,12 @@ class Btn extends Component {
       activeOpacity = 1;
     }
 
+    const { theme = {} } = this.props;
+
     return (
       <View
-        style={[styles.container, this.props.style]}
+        style={[styles.container,
+          { backgroundColor: theme.primaryColor || COLOR_THEME }, this.props.style]}
         hitSlop={this.props.hitSlop}
       >
         <TouchableOpacity

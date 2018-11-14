@@ -22,4 +22,5 @@ export { default as Sheet } from './Sheet';
 export { default as SmsCaptchaInput } from './SmsCaptchaInput';
 export { default as ToolTip } from './ToolTip';
 export { default as VirtualPasswordInput } from './VirtualPasswordInput';
+export { default as SelectorBar } from './SelectorBar';
 
