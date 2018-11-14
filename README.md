@@ -35,7 +35,7 @@ function Demo(props) {
 ### 1. Install
 
 ```
-npm install
+npm install && cd ios && pod install & cd ..
 ```
 
 ### 2. Run
@@ -89,6 +89,7 @@ Name       | Description | State
 [ToolTip](https://github.com/meicai-fe/mcrn-ui/tree/master/ToolTip)     | 提示框 | ✅
 [VirtualPasswordInput](https://github.com/meicai-fe/mcrn-ui/tree/master/VirtualPasswordInput)  | 虚拟密码输入框 | ✅
 [Web](https://github.com/meicai-fe/mcrn-ui/tree/master/Web)  | 类微信浏览器 | 🖌
+[主题切换](https://github.com/meicai-fe/mcrn-ui/tree/master/theme)  | 主题配置切换功能 | 🖌
 
 ### Util
 
