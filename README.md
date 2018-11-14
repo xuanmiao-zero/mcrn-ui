@@ -18,6 +18,16 @@ npm install mcrn-ui --save
 ### 2. Use
 
 ```js
+// 
+import { ThemeProvider } from 'mcrn-ui';
+
+<ThemeProvider theme={{ primaryColor: 'rgb(36,199,208)' }}}>
+  <App />
+</ThemeProvider>
+
+```
+
+```js
 import React, {
   Component,
 } from 'react';
@@ -89,7 +99,7 @@ Name       | Description | State
 [ToolTip](https://github.com/meicai-fe/mcrn-ui/tree/master/ToolTip)     | 提示框 | ✅
 [VirtualPasswordInput](https://github.com/meicai-fe/mcrn-ui/tree/master/VirtualPasswordInput)  | 虚拟密码输入框 | ✅
 [Web](https://github.com/meicai-fe/mcrn-ui/tree/master/Web)  | 类微信浏览器 | 🖌
-[主题切换](https://github.com/meicai-fe/mcrn-ui/tree/master/theme)  | 主题配置切换功能 | 🖌
+[主题切换](https://github.com/meicai-fe/mcrn-ui/tree/master/theme)  | 主题配置切换功能 |  ✅
 
 ### Util
 
