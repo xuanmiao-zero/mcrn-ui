@@ -18,7 +18,7 @@ npm install mcrn-ui --save
 ### 2. Use
 
 ```js
-// 
+// 主题设置
 import { ThemeProvider } from 'mcrn-ui';
 
 <ThemeProvider theme={{ primaryColor: 'rgb(36,199,208)' }}}>
