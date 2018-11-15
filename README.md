@@ -1,6 +1,4 @@
 # mcrn-ui
-
-[![npm version](https://img.shields.io/npm/v/mcrn-cli.svg)](https://www.npmjs.com/package/mcrn-ui)
 [![npm](https://img.shields.io/npm/v/mcrn-ui.svg?maxAge=60)](https://www.npmjs.com/package/mcrn-ui)
 [![npm](https://img.shields.io/npm/dt/mcrn-ui.svg?maxAge=60)](https://www.npmjs.com/package/mcrn-ui)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/meicai-fe/mcrn-ui/master/LICENSE)
