@@ -290,6 +290,7 @@ class CardView extends Component {
   }
 }
 
+
 CardView.PropTypes = {
   // 样式
   style: ViewPropTypes.style,
