@@ -74,7 +74,6 @@ class Page extends Component {
   render() {
     return (
       <All>
-        <NavBar title="DynamicText" />
         <ScrollView style={styles.scrollView}>
           <Article titleStyle={styles.articleTitle} title="默认">
             <DynamicText>{this.state.text1}</DynamicText>
