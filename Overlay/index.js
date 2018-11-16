@@ -11,7 +11,7 @@ import {
   View,
   ViewPropTypes,
 } from 'react-native';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const NOOP = () => {};
 

@@ -21,14 +21,15 @@
     "mcui-theme-provider": "^0.0.1"
   },
   "devDependencies": {
+    "babel-jest": "18.0.0",
     "babel-preset-react-native": "1.9.1",
     "eslint-config-mcrn": "*",
+    "eslint-plugin-prettier": "^3.0.0",
+    "jest": "18.1.0",
+    "pre-commit": "^1.2.2",
     "react": "16.3.1",
     "react-native": "0.55.3",
-    "babel-jest": "18.0.0",
-    "jest": "18.1.0",
-    "react-test-renderer": "15.4.2",
-    "pre-commit": "^1.2.2"
+    "react-test-renderer": "15.4.2"
   },
   "jest": {
     "preset": "react-native"

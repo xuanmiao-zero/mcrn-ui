@@ -1,0 +1,12 @@
+{
+    "extends": "eslint-config-mcrn",
+    "globals": {
+      "__DEV__": false,
+      "fetch": false,
+      "navigator": false,
+      "store": false,
+      "mconnect": false,
+      "screen": false
+    }
+  }
+  

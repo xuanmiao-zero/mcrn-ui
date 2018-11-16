@@ -8,7 +8,7 @@ import {
   StyleSheet,
   View,
   Image,
-  ViewPropTypes
+  ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
 

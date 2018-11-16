@@ -10,7 +10,7 @@ import {
   StyleSheet,
   View,
   Text,
-  ViewPropTypes
+  ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
 
@@ -55,8 +55,8 @@ class Badge extends Component {
     super(props);
     this.state = {
       opacity: 0,
-      top: -5,
-      right: -5,
+      top: -7,
+      right: -7,
       borderRadius: 7,
     };
   }
