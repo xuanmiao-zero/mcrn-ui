@@ -179,7 +179,6 @@ class SelectorBar extends Component {
           flex: 0,
           position: 'absolute',
           top: 40,
-          zIndex: 999,
           backgroundColor: '#fff',
           shadowOffset: { width: 0, height: 5 },
           shadowOpacity: 0.5,
