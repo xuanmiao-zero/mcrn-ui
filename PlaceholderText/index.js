@@ -5,7 +5,7 @@ import {
   View,
   Text,
   TouchableWithoutFeedback,
-  ViewPropTypes
+  ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
 

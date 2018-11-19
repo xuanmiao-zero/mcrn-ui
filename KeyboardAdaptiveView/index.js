@@ -6,7 +6,7 @@ import {
   Dimensions,
   Keyboard,
   View,
-  ViewPropTypes
+  ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
 
@@ -135,7 +135,7 @@ class KeyboardAdaptiveView extends Component {
   }
 }
 
-KeyboardAdaptiveViewPropTypes = {
+KeyboardAdaptiveView.PropTypes = {
   // 获取元素回调
   getEl: PropTypes.func,
   // 自定义样式

@@ -290,7 +290,8 @@ class CardView extends Component {
   }
 }
 
-CardViewPropTypes = {
+
+CardView.PropTypes = {
   // 样式
   style: ViewPropTypes.style,
   // 缩放系数

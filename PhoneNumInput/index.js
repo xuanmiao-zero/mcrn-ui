@@ -6,7 +6,7 @@ import {
   StyleSheet,
   TextInput,
   View,
-  ViewPropTypes
+  ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
 

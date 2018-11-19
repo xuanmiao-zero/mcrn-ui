@@ -5,7 +5,7 @@ import {
   StyleSheet,
   View,
   Animated,
-  ViewPropTypes
+  ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
 
