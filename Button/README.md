@@ -45,9 +45,28 @@ Button
 <Button type={'info'} icon={require('SPImg/public/back_white.png')}>轩邈</Button>
 ```
 
-### loading 默认为true
+### loading 默认为true 可指定loading颜色和图标
+
+loadingColor loadingIcon
 
 ![image-4](./img/loading.gif)
+
+```js
+<Button type={'info'} loading>轩邈</Button>
+<Button type={'info'} loading loadingColor={'#fff'} loadingIcon={require('./back_white.png')}>轩邈</Button>
+```
+
+默认图标loading图标
+
+![image-5](./loading.gif)
+
+### 自定义样式
+
+
+
+```js
+<Button type={'info'} textStyle={{ color: 'yellow', fontSize: 28 }}>轩邈</Button>
+```
 
 ### size 默认值为 md  （sm 、md、lg）
 

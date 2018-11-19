@@ -10,7 +10,7 @@ import {
   Text,
   Animated,
   Easing,
-  ViewPropTypes
+  ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
 
